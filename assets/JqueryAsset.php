@@ -40,6 +40,7 @@ class JqueryAsset extends \p2made\assets\base\P2AssetBundle
 	public function init()
 	{
 		$this->insertAssetVersion($this->resourceData['static']['js'][0]);
+		$this->insertAssetVersion($this->resourceData['published']['js'][0]);
 
 		$this->configureAsset($this->resourceData);
 		parent::init();
